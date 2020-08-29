@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.contenedor{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.parallax{
+    position: absolute;
+    width: 100%;
+    background-image: url(/assets/images/banner1.jpg);
+    background-size: contain;
+    height: 100vh;
+    z-index: -1;
+}
+
+.blackLayout{
+    background-color: #11111130;   
+    height: inherit;
+    width: 100vw;
+    z-index: 0;
+    text-align: right;
+    color: white;
+}
+
+.blackLayout h1{
+    position: relative;
+    top: 40vh;
+    font-size: 3em;
+    margin-right: 30px;
+}
+
+.blackLayout p{
+    position: relative;
+    top: 40vh;
+    color: black;
+    margin-right: 30px;
+    background-color: white;
+    margin-left: 50vw;
+}
+
+.myself{
+    height: 1500px;
+}
